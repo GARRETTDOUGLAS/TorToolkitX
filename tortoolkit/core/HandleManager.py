@@ -644,9 +644,8 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "<b><i>Hello, Iam A Pewerful Leech Bot With So Many Fun Feature Extras 😉❤️,
-
-Created By @MasterOfTG 🔥</b></i>"
+    msg = "<b><i>Hello, Iam A Pewerful Leech Bot With So Many Fun Feature Extras 😉❤️,</b></i> \n\n
+<b><i>Created By @MasterOfTG 🔥</b></i>"
     await event.reply(msg, parse_mode="html")
 
 
